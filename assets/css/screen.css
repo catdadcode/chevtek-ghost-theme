@@ -167,8 +167,8 @@ body {
 }
 
 .site-logo {
-    max-height: 45px;
-    vertical-align: top;
+    max-height: 100px;
+    vertical-align: middle;
 }
 
 .site-description {
@@ -231,7 +231,6 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex-shrink: 0;
     display: block;
     margin-right: 24px;
-    padding: 11px 0;
     color: #fff;
     font-size: 1.7rem;
     line-height: 1em;
@@ -246,7 +245,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .site-nav-logo img {
     display: block;
     width: auto;
-    height: 21px;
+    height: 35px;
 }
 
 .nav {
@@ -1870,7 +1869,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content figure img {
-    margin: 0;
+    margin: auto;
 }
 
 .post-full-content figcaption {
